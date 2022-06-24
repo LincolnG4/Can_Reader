@@ -1,0 +1,12 @@
+can-utils
+inotify-tools
+gzip
+jq
+ntfs-3g
+exfat-fuse
+exfat-utils
+bc
+python3-pip
+libatlas-base-dev
+gpsd gpsd-clients
+python-gps

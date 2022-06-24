@@ -1,0 +1,12 @@
+ [Unit]
+ Description=Zipping MF4 files to SD
+ After=multi-user.target
+ StartLimitIntervalSec=1
+ 
+ [Service]
+ ExecStart=/home/pi/code/zip_sort.sh
+ Restart=always
+ RestartSec=10
+
+ [Install]
+ WantedBy=multi-user.target

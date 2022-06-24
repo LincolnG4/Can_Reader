@@ -1,0 +1,47 @@
+VERSION ""
+
+
+BS_:
+
+BU_:
+
+
+BO_ 592 ID592: 8 Vector__XXX
+ SG_ fault_priority : 8|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ vehicle_speed : 32|16@1+ (0.005,0) [0|250] "km/h" Vector__XXX
+ SG_ parking_brake : 28|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ service_brake : 30|2@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ engine_speed : 48|16@1+ (0.16,0) [0|8000] "RPM" Vector__XXX
+
+BO_ 1364 ID1364: 8 Vector__XXX
+ SG_ Manifold_air_temperature : 48|8@1+ (1,-50) [-50|200] "°C" Vector__XXX
+ SG_ coolant_temperature : 8|8@1+ (1,-50) [-50|200] "°C" Vector__XXX
+ SG_ oil_temperature : 0|8@1+ (1,-50) [-50|200] "°C" Vector__XXX
+ SG_ fuel_consumption : 24|8@1+ (0.005,0) [0|1.25] "" Vector__XXX
+
+BO_ 556 ID556: 8 Vector__XXX
+ SG_ gear_position : 34|6@1+ (1,0) [0|63] "" Vector__XXX
+ SG_ clutch_status : 20|4@1+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 593 ID593: 8 Vector__XXX
+ SG_ accelerator : 0|16@1+ (0.2,-5000) [-5000|5000] "Nm" Vector__XXX
+
+BO_ 596 ID596: 8 Vector__XXX
+ SG_ idle_speed : 26|1@1- (1,0) [0|1] "" Vector__XXX
+ SG_ start_inhibit : 27|1@1- (1,0) [0|1] "" Vector__XXX
+ SG_ injection : 28|1@1- (1,0) [0|1] "" Vector__XXX
+ SG_ running : 29|1@1- (1,0) [0|1] "" Vector__XXX
+ SG_ starter : 30|1@1- (1,0) [0|1] "" Vector__XXX
+ SG_ kl15 : 31|1@1- (1,0) [0|1] "" Vector__XXX
+
+BO_ 1440 ID1440: 8 Vector__XXX
+ SG_ battery_voltage : 56|8@1+ (0.2,0) [0|50] "V" Vector__XXX
+ SG_ pressure_2 : 48|8@1+ (0.08,0) [0|20] "bar" Vector__XXX
+ SG_ pressure_1 : 40|8@1+ (0.08,0) [0|20] "bar" Vector__XXX
+
+BO_ 1360 ID1360: 8 Vector__XXX
+ SG_ Environmental_temperature : 56|8@1+ (0.5,-50) [-50|75] "°C" Vector__XXX
+
+
+
+

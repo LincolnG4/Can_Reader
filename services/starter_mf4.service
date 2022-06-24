@@ -1,0 +1,12 @@
+ [Unit]
+ Description=Start mf4 dummy
+ After=multi-user.target
+ StartLimitIntervalSec=1
+ 
+ [Service]
+ ExecStart=/home/pi/code/start.sh
+ Restart=always
+ RestartSec=60
+
+ [Install]
+ WantedBy=multi-user.target

@@ -1,0 +1,15 @@
+ [Unit]
+ Description=Decode MF4 file with DBC
+ After=multi-user.target
+ StartLimitIntervalSec=1
+ 
+ [Service]
+ Type=idle
+ User=root
+ ExecStart=/usr/bin/python3 /home/pi/code/dbc_decoder.py > /home/pi/sample.log 2>&1
+ Restart=always
+ RestartSec=10
+
+
+ [Install]
+ WantedBy=multi-user.target

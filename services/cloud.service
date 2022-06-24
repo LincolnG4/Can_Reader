@@ -1,0 +1,14 @@
+ [Unit]
+ Description=Send files to cloud
+ After=multi-user.target
+ StartLimitIntervalSec=1
+    
+ [Service]
+ Type=idle
+ User=root
+ ExecStart=/usr/bin/python3 /home/pi/code/cloud.py > /home/pi/sample.log 2>&1
+ Restart=always
+ RestartSec=10
+
+ [Install]
+ WantedBy=multi-user.target

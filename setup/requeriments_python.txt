@@ -1,0 +1,8 @@
+asammdf
+numpy
+pandas
+pynmea2
+azure-storage-blob
+pyserial
+python-can
+cantools

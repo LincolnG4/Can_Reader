@@ -1,0 +1,18 @@
+[DEFAULT]
+format_logfile = .csv
+timer = 30
+
+[GPS]
+port= /dev/ttyACM0
+baudrate = 9600
+timeout = 0.5
+
+
+[CAN]
+can_interface = can0
+bustype = socketcan
+
+
+[PATHS]
+log_file = log_CAN_%s${DEFAULT:format_logfile}
+output_file = measure_CAN_%s${DEFAULT:format_logfile}
